@@ -124,4 +124,13 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--legacy-timing', action='store_true',
+                        help='Reproduce the original fixed-cue compressed narration')
+    args = parser.parse_args()
+    if args.legacy_timing:
+        main()
+    else:
+        from optimize_video_pacing import main as build_paced
+        build_paced()

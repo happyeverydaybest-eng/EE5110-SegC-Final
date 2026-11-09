@@ -4,6 +4,7 @@
 
 - 主报告：[EE5110_Final_Report.pdf](../output/pdf/EE5110_Final_Report.pdf)，英文10页。
 - AI英文配音成片：[EE5110_Final_Demo.mp4](../deliverables/EE5110_Final_Demo.mp4)，300秒，54条cue对齐的美式英语男声；[构建与验证记录](final_video/AI_NARRATION.md)。
+- 当前成片使用自然口播优化时间轴：[新版字幕](final_video/narration_paced.srt)、[新版逐句时间稿](final_video/NARRATION_PACED_EN.md)。原 `narration.srt` 和镜头表对应无声审片版。
 - 审片视频：[EE5110_5min_reviewed_preview.mp4](../deliverables/EE5110_5min_reviewed_preview.mp4)，300秒、无口播。
 - [635词讲稿](final_video/NARRATION_EN.md)、[54条字幕](final_video/narration.srt)、[23镜头时间表](final_video/shot_list.csv)、[全片检查记录](final_video/FULL_REVIEW_ZH.md)。
 - [LaTeX源码](final_report/README.md)，可直接上传Overleaf。

@@ -41,7 +41,7 @@ py -3.12 -m venv .venv
 
 ## 检查与重新生成
 
-AI配音成片保留原审片画面和字幕，使用 `en-US-GuyNeural` 美式男声，按54条cue逐句对齐。重建需联网：安装 `requirements-narration.txt` 后执行 `python scripts/build_narrated_video.py`。语音缓存与检查结果写入 `outputs/narration/`，说明见[配音记录](docs/final_video/AI_NARRATION.md)。
+AI配音成片采用重新分配的300秒时间轴，镜头与字幕随自然口播同步调整，使用 `en-US-GuyNeural` 美式男声、`-8%` 合成语速，54句均保留自然时长和句间停顿。新版[字幕](docs/final_video/narration_paced.srt)与[逐句讲稿](docs/final_video/NARRATION_PACED_EN.md)对应最终成片。重建需联网：安装 `requirements-narration.txt` 后执行 `python scripts/build_narrated_video.py`。缓存位于 `outputs/narration_paced/`，见[配音记录](docs/final_video/AI_NARRATION.md)。
 
 ```powershell
 .venv\Scripts\python -m unittest discover -s tests -v
