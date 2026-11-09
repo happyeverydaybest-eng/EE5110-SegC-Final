@@ -2,8 +2,8 @@
   "schema_version": 1,
   "scope": "Every staged branch file except this self-referential manifest",
   "text_hashing": "LF canonicalization only when normalization=lf; other files use exact bytes",
-  "file_count": 474,
-  "total_bytes_in_git": 123166702,
+  "file_count": 479,
+  "total_bytes_in_git": 133526117,
   "files": [
     {
       "path": ".gitattributes",
@@ -42,8 +42,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes_in_git": 11741,
-      "sha256": "6dcfaa98520524b2f946ba97986a28db4d6385097c5e1f725b50193e6bb55e8f",
+      "bytes_in_git": 12232,
+      "sha256": "8a03a2fd09f610c6d1111a808e0870e5dcec08219cd77b54f79145ab5de03237",
       "normalization": "lf",
       "purpose": "项目入口、使用/维护说明或 Git 配置；中文说明见 README.md 与 docs/FILE_GUIDE.md"
     },
@@ -63,15 +63,15 @@
     },
     {
       "path": "PROGRESS.md",
-      "bytes_in_git": 1448,
-      "sha256": "10c6c2fa222f303a0688031d22e7114549a038d02ff7ae8f3b360f7a8448244d",
+      "bytes_in_git": 1498,
+      "sha256": "f37744eb83054138768c4dd85b9ef1fff431bb224e19b2441c1e0300085d5864",
       "normalization": "lf",
       "purpose": "项目入口、使用/维护说明或 Git 配置；中文说明见 README.md 与 docs/FILE_GUIDE.md"
     },
     {
       "path": "README.md",
-      "bytes_in_git": 3854,
-      "sha256": "3bc336aa69eed42156d4b500b16aa9f4ed8b92f8c6c926205e3bfb0b7f4c72c8",
+      "bytes_in_git": 4286,
+      "sha256": "5752efcb098c2d71a87e6953c9268cdf38ce3510e7a5fb9abf5362343f932afb",
       "normalization": "lf",
       "purpose": "项目入口、使用/维护说明或 Git 配置；中文说明见 README.md 与 docs/FILE_GUIDE.md"
     },
@@ -972,9 +972,16 @@
       "purpose": "最新版审片视频或交付物导航；ZIP按需生成到 output/packages，不纳入版本控制"
     },
     {
+      "path": "deliverables/EE5110_Final_Demo.mp4",
+      "bytes_in_git": 10334220,
+      "sha256": "c227ed430a6a87987d5072d21450ee88074f721b1ec769a6772db643f6a7a110",
+      "normalization": "none",
+      "purpose": "最新版审片视频或交付物导航；ZIP按需生成到 output/packages，不纳入版本控制"
+    },
+    {
       "path": "deliverables/README.md",
-      "bytes_in_git": 804,
-      "sha256": "18dc80e4714e0856376d4d1ff5da968742d3fcb2d2cd845b01eceb35e56b0068",
+      "bytes_in_git": 891,
+      "sha256": "329afca7e19b37fbd11b6d639ff2da16536855d22d6f3333fc0cf74a056ffadf",
       "normalization": "none",
       "purpose": "最新版审片视频或交付物导航；ZIP按需生成到 output/packages，不纳入版本控制"
     },
@@ -1155,8 +1162,8 @@
     },
     {
       "path": "docs/FINAL_DELIVERY.md",
-      "bytes_in_git": 3287,
-      "sha256": "f502aaac9333606f029484383b1c4cf55fc59f7668f63145e75ce6b2a85f0798",
+      "bytes_in_git": 3482,
+      "sha256": "acdb6ad03025f51800d24db4ea262cebed717a8d09d16f42f1df03c5df8c55e9",
       "normalization": "lf",
       "purpose": "项目入口、使用/维护说明或 Git 配置；中文说明见 README.md 与 docs/FILE_GUIDE.md"
     },
@@ -1271,6 +1278,20 @@
       "sha256": "3e135b758378d8d40616606e688c8b84d0b3a53d4909351dcb67e16ac4c63fc5",
       "normalization": "lf",
       "purpose": "10页英文综合报告的LaTeX源码、本地图表、数据摘要或编译说明"
+    },
+    {
+      "path": "docs/final_video/AI_NARRATION.md",
+      "bytes_in_git": 1683,
+      "sha256": "10fbb4b2ae7c7e08a5333b7bfa82c56a5f122d8aeaaad8b65970755bdad33956",
+      "normalization": "lf",
+      "purpose": "5分钟演示的英文讲稿、字幕、镜头切点、时间轴或中文剪辑说明"
+    },
+    {
+      "path": "docs/final_video/AI_NARRATION_CHECK.json",
+      "bytes_in_git": 16462,
+      "sha256": "89d539cb55795856948b59bf24c4241056f0d42e37911b18d91be27074b7c17e",
+      "normalization": "lf",
+      "purpose": "5分钟演示的英文讲稿、字幕、镜头切点、时间轴或中文剪辑说明"
     },
     {
       "path": "docs/final_video/EDITING_GUIDE_ZH.md",
@@ -2834,6 +2855,13 @@
       "purpose": "本地实验、录制、缓存与编译临时输出；仅目录说明受版本控制"
     },
     {
+      "path": "requirements-narration.txt",
+      "bytes_in_git": 42,
+      "sha256": "4d9baaf0a1bd6179c98076bac8a4c406b4ee29d6c98ae438ac48666d881da8a2",
+      "normalization": "lf",
+      "purpose": "Python 依赖版本清单；按核心仿真、视频和报告分开安装"
+    },
+    {
       "path": "requirements-report.txt",
       "bytes_in_git": 32,
       "sha256": "943582602253e9b3865298a7dde79799b75e05d8cbd53ec231f9c8a3af8cd558",
@@ -3089,6 +3117,13 @@
       "path": "scripts/build_final_video_materials.py",
       "bytes_in_git": 15221,
       "sha256": "9c1ef0880f09148fe61d9268b006bb653552bf50ff9f56103428949f1f790b94",
+      "normalization": "lf",
+      "purpose": "Python 模块/工具/测试；职责说明见 docs/FILE_GUIDE.md"
+    },
+    {
+      "path": "scripts/build_narrated_video.py",
+      "bytes_in_git": 5753,
+      "sha256": "d3c4cb823089a40d27a9bf11e6876a7d30ee2ced59f9185db3a2bc25c57691bd",
       "normalization": "lf",
       "purpose": "Python 模块/工具/测试；职责说明见 docs/FILE_GUIDE.md"
     },

@@ -1,6 +1,6 @@
 # 当前进度
 
-当前工作分支：`feature/final-latex-report-video`。基线、180次候选策略研究、126次探索筛查和5分钟审片材料已完成；原分支及冻结引擎不改写。
+当前工作分支：`feature/ai-narrated-final-video`。基线、180次候选策略研究、126次探索筛查、5分钟审片材料及AI英文配音成片已完成。
 
 ## 已完成
 
@@ -13,7 +13,7 @@
 
 ## 提交前尚需小组完成
 
-- 按当前逐句时间表录制口播，合成音轨并校准语音同步。
+- AI英文口播已按54条cue合成至 `deliverables/EE5110_Final_Demo.mp4`；构建和技术验证见 `docs/final_video/AI_NARRATION.md`。
 - 如课程需要，在LaTeX的`\TeamLine`填写真实组员身份。
 - 用最终配音视频生成提交ZIP，检查独立解压运行结果。
 

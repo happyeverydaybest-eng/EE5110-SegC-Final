@@ -1,0 +1,554 @@
+{
+  "voice": "en-US-GuyNeural",
+  "provider": "Microsoft Edge online speech via edge-tts",
+  "duration_s": 300.0106666666667,
+  "cue_count": 54,
+  "all_cues_within_intervals": true,
+  "full_decode_passed": true,
+  "video_frame_hash_equal": true,
+  "video_stream_hash": "0,v,SHA256=eda180d2bb69144580a563065ec8205438173ab39b934b8afe553333d7df37a3",
+  "output_sha256": "c227ed430a6a87987d5072d21450ee88074f721b1ec769a6772db643f6a7a110",
+  "peak_dbfs": -1.3636668713292786,
+  "cues": [
+    {
+      "index": 1,
+      "start": 0,
+      "end": 6,
+      "text": "Our project studies complete physical pick-and-place with a Franka Panda in MuJoCo.",
+      "raw_s": 4.473291666666666,
+      "tempo": 0.85,
+      "speech_start_s": 0.07,
+      "speech_end_s": 5.315541666666666
+    },
+    {
+      "index": 2,
+      "start": 6,
+      "end": 10,
+      "text": "We investigate blocked approaches, corrupted geometry and contact retention.",
+      "raw_s": 4.211458333333334,
+      "tempo": 1.120068705673759,
+      "speech_start_s": 6.07,
+      "speech_end_s": 9.841875
+    },
+    {
+      "index": 3,
+      "start": 10,
+      "end": 15,
+      "text": "The aim is to explain task failures and test bounded interventions.",
+      "raw_s": 3.65675,
+      "tempo": 0.85,
+      "speech_start_s": 10.07,
+      "speech_end_s": 14.359541666666667
+    },
+    {
+      "index": 4,
+      "start": 15,
+      "end": 24,
+      "text": "The baseline loads six public YCB models and supports seeded random object selection and placement.",
+      "raw_s": 5.266166666666667,
+      "tempo": 0.85,
+      "speech_start_s": 15.07,
+      "speech_end_s": 21.249458333333333
+    },
+    {
+      "index": 5,
+      "start": 24,
+      "end": 30,
+      "text": "This complete run starts with a checked approach and physical finger closure.",
+      "raw_s": 3.624416666666667,
+      "tempo": 0.85,
+      "speech_start_s": 24.07,
+      "speech_end_s": 28.320083333333333
+    },
+    {
+      "index": 6,
+      "start": 30,
+      "end": 35,
+      "text": "Contact lifts and holds the target before the robot begins its transfer.",
+      "raw_s": 3.9085,
+      "tempo": 0.85,
+      "speech_start_s": 30.07,
+      "speech_end_s": 34.65154166666667
+    },
+    {
+      "index": 7,
+      "start": 35,
+      "end": 41,
+      "text": "The arm carries the object to the destination, lowers it and opens the fingers.",
+      "raw_s": 4.147458333333334,
+      "tempo": 0.85,
+      "speech_start_s": 35.07,
+      "speech_end_s": 39.94383333333333
+    },
+    {
+      "index": 8,
+      "start": 41,
+      "end": 45,
+      "text": "Release and table support are checked; failures remain in the evaluation.",
+      "raw_s": 4.0376666666666665,
+      "tempo": 1.0738475177304965,
+      "speech_start_s": 41.07,
+      "speech_end_s": 44.83020833333333
+    },
+    {
+      "index": 9,
+      "start": 45,
+      "end": 55,
+      "text": "Mesh-based candidates are proposals. Inverse kinematics and collision checks decide which can execute.",
+      "raw_s": 6.650833333333333,
+      "tempo": 0.85,
+      "speech_start_s": 45.07,
+      "speech_end_s": 52.872708333333335
+    },
+    {
+      "index": 10,
+      "start": 55,
+      "end": 62,
+      "text": "Complete success requires an eighty-millimeter lift, a one-second hold and sustained bilateral contact.",
+      "raw_s": 5.71325,
+      "tempo": 0.85,
+      "speech_start_s": 55.07,
+      "speech_end_s": 61.783375
+    },
+    {
+      "index": 11,
+      "start": 62,
+      "end": 66,
+      "text": "Release must be stable, within fifty-five millimeters of the destination.",
+      "raw_s": 4.147625,
+      "tempo": 1.1030917553191488,
+      "speech_start_s": 62.07,
+      "speech_end_s": 65.82875
+    },
+    {
+      "index": 12,
+      "start": 66,
+      "end": 70,
+      "text": "Planning still uses simulator geometry; sensing is synthetic.",
+      "raw_s": 3.757625,
+      "tempo": 0.9993683510638298,
+      "speech_start_s": 66.07,
+      "speech_end_s": 69.82695833333334
+    },
+    {
+      "index": 13,
+      "start": 70,
+      "end": 75,
+      "text": "The original candidates are rejected because a nearby can blocks the palm.",
+      "raw_s": 3.9556666666666667,
+      "tempo": 0.85,
+      "speech_start_s": 70.07,
+      "speech_end_s": 74.71095833333334
+    },
+    {
+      "index": 14,
+      "start": 75,
+      "end": 84,
+      "text": "We keep the scene and safety checks, adding bounded inclined and offset grasp alternatives.",
+      "raw_s": 4.689541666666667,
+      "tempo": 0.85,
+      "speech_start_s": 75.07,
+      "speech_end_s": 80.58220833333333
+    },
+    {
+      "index": 15,
+      "start": 84,
+      "end": 93,
+      "text": "The chosen alternative lifts the target and carries it through the checked corridor.",
+      "raw_s": 3.923583333333333,
+      "tempo": 0.85,
+      "speech_start_s": 84.07,
+      "speech_end_s": 88.67025
+    },
+    {
+      "index": 16,
+      "start": 93,
+      "end": 100,
+      "text": "The robot lowers and releases it. This development demonstration is separate from the paired evaluation.",
+      "raw_s": 6.447708333333333,
+      "tempo": 0.9538030078895463,
+      "speech_start_s": 93.07,
+      "speech_end_s": 99.8145
+    },
+    {
+      "index": 17,
+      "start": 100,
+      "end": 106,
+      "text": "This elastic model genuinely deforms; the YCB foam brick in the baseline remains rigid.",
+      "raw_s": 5.085583333333333,
+      "tempo": 0.8829137731481481,
+      "speech_start_s": 100.07,
+      "speech_end_s": 105.8155
+    },
+    {
+      "index": 18,
+      "start": 106,
+      "end": 114,
+      "text": "The controller regulates the weaker finger contact to retain the object during lift and transfer.",
+      "raw_s": 4.9215,
+      "tempo": 0.85,
+      "speech_start_s": 106.07,
+      "speech_end_s": 111.85004166666667
+    },
+    {
+      "index": 19,
+      "start": 114,
+      "end": 121,
+      "text": "Fixed preload completes two of six soft-object tasks; regulation completes six of six.",
+      "raw_s": 5.105333333333333,
+      "tempo": 0.85,
+      "speech_start_s": 114.07,
+      "speech_end_s": 120.053625
+    },
+    {
+      "index": 20,
+      "start": 121,
+      "end": 127,
+      "text": "These force and strain curves illustrate one development run, rather than a group average.",
+      "raw_s": 4.5765,
+      "tempo": 0.85,
+      "speech_start_s": 121.07,
+      "speech_end_s": 126.43775
+    },
+    {
+      "index": 21,
+      "start": 127,
+      "end": 131,
+      "text": "Across formal trials, mean peak strain rises from about three-point-seven to four-point-nine percent.",
+      "raw_s": 5.185041666666667,
+      "tempo": 1.3790004432624114,
+      "speech_start_s": 127.07,
+      "speech_end_s": 130.84029166666667
+    },
+    {
+      "index": 22,
+      "start": 131,
+      "end": 135,
+      "text": "Retention improves within the tested limits; reduced deformation is not demonstrated.",
+      "raw_s": 4.88075,
+      "tempo": 1.2980718085106384,
+      "speech_start_s": 131.07,
+      "speech_end_s": 134.84533333333334
+    },
+    {
+      "index": 23,
+      "start": 135,
+      "end": 140,
+      "text": "A separate rigid-load study randomizes mass, friction and actuator delay.",
+      "raw_s": 4.551833333333334,
+      "tempo": 0.9562675070028013,
+      "speech_start_s": 135.07,
+      "speech_end_s": 139.81891666666667
+    },
+    {
+      "index": 24,
+      "start": 140,
+      "end": 145,
+      "text": "Regulation changes completion from ten of twelve to twelve of twelve.",
+      "raw_s": 3.755875,
+      "tempo": 0.85,
+      "speech_start_s": 140.07,
+      "speech_end_s": 144.47529166666666
+    },
+    {
+      "index": 25,
+      "start": 145,
+      "end": 150,
+      "text": "Synthetic depth includes missing stripes, drift, outliers and a persistent calibration bias.",
+      "raw_s": 5.281875,
+      "tempo": 1.109637605042017,
+      "speech_start_s": 145.07,
+      "speech_end_s": 149.84395833333335
+    },
+    {
+      "index": 26,
+      "start": 150,
+      "end": 155,
+      "text": "The single-packet method completes six of twelve tasks; naive fusion completes only one.",
+      "raw_s": 4.72275,
+      "tempo": 0.9921743697478991,
+      "speech_start_s": 150.07,
+      "speech_end_s": 154.82333333333332
+    },
+    {
+      "index": 27,
+      "start": 155,
+      "end": 160,
+      "text": "Cross-packet voxel support rejects transient outliers and reaches nine successes in twelve trials.",
+      "raw_s": 5.383875,
+      "tempo": 1.1310661764705883,
+      "speech_start_s": 155.07,
+      "speech_end_s": 159.84383333333332
+    },
+    {
+      "index": 28,
+      "start": 160,
+      "end": 169,
+      "text": "This successful development example uses the robust observer, without target CAD or instance labels in grasp estimation.",
+      "raw_s": 6.831541666666666,
+      "tempo": 0.85,
+      "speech_start_s": 160.07,
+      "speech_end_s": 168.08920833333335
+    },
+    {
+      "index": 29,
+      "start": 169,
+      "end": 176,
+      "text": "Planning still uses simulator geometry; measured observations do not make the entire system vision-only.",
+      "raw_s": 5.69575,
+      "tempo": 0.85,
+      "speech_start_s": 169.07,
+      "speech_end_s": 175.764125
+    },
+    {
+      "index": 30,
+      "start": 176,
+      "end": 181,
+      "text": "The robot carries and releases the object in this illustration.",
+      "raw_s": 3.4306666666666668,
+      "tempo": 0.85,
+      "speech_start_s": 176.07,
+      "speech_end_s": 180.09379166666668
+    },
+    {
+      "index": 31,
+      "start": 181,
+      "end": 185,
+      "text": "The formal failures remain wedge slips, in separate trials.",
+      "raw_s": 3.3459583333333334,
+      "tempo": 0.8898825354609929,
+      "speech_start_s": 181.07,
+      "speech_end_s": 184.81966666666668
+    },
+    {
+      "index": 32,
+      "start": 185,
+      "end": 190,
+      "text": "A transient command fault leaves the first closure wider than the target.",
+      "raw_s": 3.815375,
+      "tempo": 0.85,
+      "speech_start_s": 185.07,
+      "speech_end_s": 189.54891666666666
+    },
+    {
+      "index": 33,
+      "start": 190,
+      "end": 193.5,
+      "text": "No bilateral contact is detected; the grasp is rejected.",
+      "raw_s": 3.624458333333333,
+      "tempo": 1.1117970347648263,
+      "speech_start_s": 190.07,
+      "speech_end_s": 193.33804166666667
+    },
+    {
+      "index": 34,
+      "start": 193.5,
+      "end": 196,
+      "text": "The robot opens and withdraws safely.",
+      "raw_s": 2.220125,
+      "tempo": 0.9823561946902656,
+      "speech_start_s": 193.57,
+      "speech_end_s": 195.81804166666666
+    },
+    {
+      "index": 35,
+      "start": 196,
+      "end": 201,
+      "text": "It reobserves and makes a second grasp in the same evolving scene.",
+      "raw_s": 3.529625,
+      "tempo": 0.85,
+      "speech_start_s": 196.07,
+      "speech_end_s": 200.210375
+    },
+    {
+      "index": 36,
+      "start": 201,
+      "end": 209,
+      "text": "The second grasp holds through lift and transfer; the scene was never reset.",
+      "raw_s": 3.968916666666667,
+      "tempo": 0.85,
+      "speech_start_s": 201.07,
+      "speech_end_s": 205.71983333333333
+    },
+    {
+      "index": 37,
+      "start": 209,
+      "end": 216,
+      "text": "After lowering and release, table support and final placement are verified.",
+      "raw_s": 4.187333333333333,
+      "tempo": 0.85,
+      "speech_start_s": 209.07,
+      "speech_end_s": 213.987625
+    },
+    {
+      "index": 38,
+      "start": 216,
+      "end": 220,
+      "text": "All six controlled episodes recover; broader recovery remains unproven.",
+      "raw_s": 4.1474166666666665,
+      "tempo": 1.1030363475177305,
+      "speech_start_s": 216.07,
+      "speech_end_s": 219.83241666666666
+    },
+    {
+      "index": 39,
+      "start": 220,
+      "end": 225,
+      "text": "A passive hinge remains dynamic while the whole assembly is transported.",
+      "raw_s": 3.804666666666667,
+      "tempo": 0.85,
+      "speech_start_s": 220.07,
+      "speech_end_s": 224.53575
+    },
+    {
+      "index": 40,
+      "start": 225,
+      "end": 230,
+      "text": "All six assembly tasks succeed; deliberate lid opening is not demonstrated.",
+      "raw_s": 4.498625,
+      "tempo": 0.9450892857142856,
+      "speech_start_s": 225.07,
+      "speech_end_s": 229.8125
+    },
+    {
+      "index": 41,
+      "start": 230,
+      "end": 234,
+      "text": "Measured points propose grasps for procedural instances without target CAD.",
+      "raw_s": 4.514666666666667,
+      "tempo": 1.2007092198581562,
+      "speech_start_s": 230.07,
+      "speech_end_s": 233.82945833333332
+    },
+    {
+      "index": 42,
+      "start": 234,
+      "end": 238,
+      "text": "Both methods tie at eleven of twelve, with one shared slip.",
+      "raw_s": 3.379,
+      "tempo": 0.8986702127659575,
+      "speech_start_s": 234.07,
+      "speech_end_s": 237.81120833333333
+    },
+    {
+      "index": 43,
+      "start": 238,
+      "end": 245,
+      "text": "In separate stronger-clutter trials, active sensing changes completion from five of six to three of six.",
+      "raw_s": 5.728208333333333,
+      "tempo": 0.85,
+      "speech_start_s": 238.07,
+      "speech_end_s": 244.80095833333334
+    },
+    {
+      "index": 44,
+      "start": 245,
+      "end": 250,
+      "text": "The candidate study contains one hundred eighty paired physical episodes.",
+      "raw_s": 3.7764166666666665,
+      "tempo": 0.85,
+      "speech_start_s": 245.07,
+      "speech_end_s": 249.49641666666668
+    },
+    {
+      "index": 45,
+      "start": 250,
+      "end": 256,
+      "text": "With three neighbors, local alternatives change success from fifty-four to fifty-eight out of sixty.",
+      "raw_s": 5.138166666666667,
+      "tempo": 0.8920428240740741,
+      "speech_start_s": 250.07,
+      "speech_end_s": 255.81133333333332
+    },
+    {
+      "index": 46,
+      "start": 256,
+      "end": 263,
+      "text": "With five neighbors, success changes from twenty-six to twenty-nine out of thirty.",
+      "raw_s": 4.1790416666666665,
+      "tempo": 0.85,
+      "speech_start_s": 256.07,
+      "speech_end_s": 260.984875
+    },
+    {
+      "index": 47,
+      "start": 263,
+      "end": 268,
+      "text": "The separate exploratory screening contains one hundred twenty-six episodes across fourteen conditions.",
+      "raw_s": 5.431958333333333,
+      "tempo": 1.1411677170868348,
+      "speech_start_s": 263.07,
+      "speech_end_s": 267.8462083333333
+    },
+    {
+      "index": 48,
+      "start": 268,
+      "end": 273,
+      "text": "The intervals show substantial uncertainty; none of the comparisons passes its stated statistical threshold.",
+      "raw_s": 5.719125,
+      "tempo": 1.201496848739496,
+      "speech_start_s": 268.07,
+      "speech_end_s": 272.8414583333333
+    },
+    {
+      "index": 49,
+      "start": 273,
+      "end": 277,
+      "text": "Initial scenes and physics are paired, with all failures retained.",
+      "raw_s": 3.56,
+      "tempo": 0.946808510638298,
+      "speech_start_s": 273.07,
+      "speech_end_s": 276.8192916666667
+    },
+    {
+      "index": 50,
+      "start": 277,
+      "end": 280,
+      "text": "Development demonstrations are excluded from both evaluation denominators.",
+      "raw_s": 4.242041666666666,
+      "tempo": 1.536971618357488,
+      "speech_start_s": 277.07,
+      "speech_end_s": 279.8403333333333
+    },
+    {
+      "index": 51,
+      "start": 280,
+      "end": 286,
+      "text": "The main finding is to diagnose geometry, sensing and contact retention together.",
+      "raw_s": 4.528875,
+      "tempo": 0.85,
+      "speech_start_s": 280.07,
+      "speech_end_s": 285.3785
+    },
+    {
+      "index": 52,
+      "start": 286,
+      "end": 292,
+      "text": "Source code, frozen records and the ten-page report provide reproduction instructions.",
+      "raw_s": 4.694041666666666,
+      "tempo": 0.85,
+      "speech_start_s": 286.07,
+      "speech_end_s": 291.5790416666667
+    },
+    {
+      "index": 53,
+      "start": 292,
+      "end": 296,
+      "text": "Forty-nine tests and both evidence audits pass.",
+      "raw_s": 2.7754583333333334,
+      "tempo": 0.85,
+      "speech_start_s": 292.07,
+      "speech_end_s": 295.3125416666667
+    },
+    {
+      "index": 54,
+      "start": 296,
+      "end": 300,
+      "text": "Next steps target wedge stability, deformation-aware control and less ideal sensing.",
+      "raw_s": 4.8598333333333334,
+      "tempo": 1.292508865248227,
+      "speech_start_s": 296.07,
+      "speech_end_s": 299.83983333333333
+    }
+  ]
+}

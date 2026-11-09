@@ -3,6 +3,7 @@
 ## 当前文件
 
 - 主报告：[EE5110_Final_Report.pdf](../output/pdf/EE5110_Final_Report.pdf)，英文10页。
+- AI英文配音成片：[EE5110_Final_Demo.mp4](../deliverables/EE5110_Final_Demo.mp4)，300秒，54条cue对齐的美式英语男声；[构建与验证记录](final_video/AI_NARRATION.md)。
 - 审片视频：[EE5110_5min_reviewed_preview.mp4](../deliverables/EE5110_5min_reviewed_preview.mp4)，300秒、无口播。
 - [635词讲稿](final_video/NARRATION_EN.md)、[54条字幕](final_video/narration.srt)、[23镜头时间表](final_video/shot_list.csv)、[全片检查记录](final_video/FULL_REVIEW_ZH.md)。
 - [LaTeX源码](final_report/README.md)，可直接上传Overleaf。
@@ -37,7 +38,7 @@ ZIP统一生成到`output/packages/`，不提交到Git。当前格式为3.1.0（
 .venv\Scripts\python scripts/verify_submission.py
 ```
 
-加入真实录音、合成最终视频后：
+使用已生成的AI配音最终视频打包：
 
 ```powershell
 .venv\Scripts\python scripts/package_submission.py --video deliverables/EE5110_Final_Demo.mp4

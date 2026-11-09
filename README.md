@@ -7,7 +7,8 @@ MuJoCo 3.15.0 / Python 3.12 / Franka Panda。项目包含公开YCB物体的完�
 | 目的 | 文件 |
 |---|---|
 | 看最终英文报告（10页） | [EE5110_Final_Report.pdf](output/pdf/EE5110_Final_Report.pdf) |
-| 看5分钟审片版（无口播） | [EE5110_5min_reviewed_preview.mp4](deliverables/EE5110_5min_reviewed_preview.mp4) |
+| 看5分钟AI英文配音成片 | [EE5110_Final_Demo.mp4](deliverables/EE5110_Final_Demo.mp4) |
+| 看原审片版（无口播） | [EE5110_5min_reviewed_preview.mp4](deliverables/EE5110_5min_reviewed_preview.mp4) |
 | 录音、字幕与镜头表 | [英文讲稿](docs/final_video/NARRATION_EN.md)、[剪辑指南](docs/final_video/EDITING_GUIDE_ZH.md) |
 | 修改报告 / 上传Overleaf | [LaTeX源码](docs/final_report/README.md) |
 | 查看15段原速素材 | [editing_materials](deliverables/editing_materials/00_README.md) |
@@ -39,6 +40,8 @@ py -3.12 -m venv .venv
 ```
 
 ## 检查与重新生成
+
+AI配音成片保留原审片画面和字幕，使用 `en-US-GuyNeural` 美式男声，按54条cue逐句对齐。重建需联网：安装 `requirements-narration.txt` 后执行 `python scripts/build_narrated_video.py`。语音缓存与检查结果写入 `outputs/narration/`，说明见[配音记录](docs/final_video/AI_NARRATION.md)。
 
 ```powershell
 .venv\Scripts\python -m unittest discover -s tests -v
